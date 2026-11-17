@@ -1,0 +1,24 @@
+{
+  "family": "timesfm",
+  "size": "500m",
+  "loss": "squared error + pinball loss over 9 deciles, context-standardised",
+  "ref_mean": 1.1377145913802087,
+  "means": {
+    "direct": 1.2965422868728638,
+    "indirect": 1.1377146244049072,
+    "clean": 1.1507080793380737
+  },
+  "raw_diff": 0.15882758738895886,
+  "raw_pct": 13.960231203177111,
+  "raw_ci_pct": [
+    -5.782758159957994,
+    34.29210963370208
+  ],
+  "adj_diff": 0.0790847226899889,
+  "adj_pct": 6.95119173905012,
+  "adj_ci_pct": [
+    -3.6334816690367453,
+    17.6017425692762
+  ],
+  "r2_with_difficulty": 0.7146173334836424
+}

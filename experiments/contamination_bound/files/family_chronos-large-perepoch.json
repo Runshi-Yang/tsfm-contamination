@@ -1,0 +1,1913 @@
+{
+  "clean_mean": 2.3757200241088867,
+  "clean_sd": 6.888299465179443,
+  "clean_p95": 15.721968650817871,
+  "bonferroni_alpha": 0.002777777777777778,
+  "first_readable_exposures_bonf": {
+    "verbatim": 20
+  },
+  "cells": {
+    "verbatim/k1": {
+      "exposures": 10,
+      "excess": 11.29663372039795,
+      "median": 7.831645965576172,
+      "p": 0.007432993762163705,
+      "frac": 0.2,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k2": {
+      "exposures": 20,
+      "excess": 27.118431091308594,
+      "median": 23.179107666015625,
+      "p": 0.0004397188163439444,
+      "frac": 0.8,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k4": {
+      "exposures": 40,
+      "excess": 53.475311279296875,
+      "median": 52.55237579345703,
+      "p": 5.898945164941963e-05,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k8": {
+      "exposures": 80,
+      "excess": 79.88815307617188,
+      "median": 75.89454650878906,
+      "p": 0.0003654864772427219,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k16": {
+      "exposures": 160,
+      "excess": 110.74449920654297,
+      "median": 117.67697143554688,
+      "p": 2.7692302745733646e-05,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k32": {
+      "exposures": 320,
+      "excess": 153.26844787597656,
+      "median": 151.28749084472656,
+      "p": 1.1918437499375714e-06,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "variant/k1": {
+      "exposures": 10,
+      "excess": -0.13761067390441895,
+      "median": -3.0965471267700195,
+      "p": 0.9589558881030489,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k2": {
+      "exposures": 20,
+      "excess": -0.059119224548339844,
+      "median": -2.0812597274780273,
+      "p": 0.9669687731316678,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k4": {
+      "exposures": 40,
+      "excess": -1.771423101425171,
+      "median": -1.6513700485229492,
+      "p": 0.5058773262314544,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k8": {
+      "exposures": 80,
+      "excess": 3.320249557495117,
+      "median": 1.4884462356567383,
+      "p": 0.34046034246725587,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k16": {
+      "exposures": 160,
+      "excess": 0.726778507232666,
+      "median": -0.042611122131347656,
+      "p": 0.5833939085026063,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k32": {
+      "exposures": 320,
+      "excess": 4.561887741088867,
+      "median": -1.8934526443481445,
+      "p": 0.34389328169362665,
+      "frac": 0.2,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k1": {
+      "exposures": 10,
+      "excess": 0.2112736701965332,
+      "median": -1.4161710739135742,
+      "p": 0.9516607910980301,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k2": {
+      "exposures": 20,
+      "excess": -2.114574432373047,
+      "median": -4.5291242599487305,
+      "p": 0.24582904735235536,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k4": {
+      "exposures": 40,
+      "excess": 0.9903693199157715,
+      "median": 1.2571229934692383,
+      "p": 0.4656524502259771,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k8": {
+      "exposures": 80,
+      "excess": 4.306765079498291,
+      "median": 3.49196720123291,
+      "p": 0.2021493114544534,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k16": {
+      "exposures": 160,
+      "excess": -0.6148790121078491,
+      "median": -1.4173688888549805,
+      "p": 0.7688096750827798,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k32": {
+      "exposures": 320,
+      "excess": 22.854488372802734,
+      "median": 5.7922868728637695,
+      "p": 0.10959881683957504,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    }
+  },
+  "family": "chronos",
+  "size": "large",
+  "loss": "token cross-entropy (summed nats)",
+  "epochs": 10,
+  "lr": 0.0001,
+  "batch": 16,
+  "n_params": 708963328,
+  "seconds": 4363,
+  "per_epoch": {
+    "1": {
+      "clean_mean": 3.4345028400421143,
+      "clean_sd": 6.4949517250061035,
+      "clean_p95": 14.804573059082031,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 8
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 1,
+          "excess": 1.4901196956634521,
+          "median": -1.8076717853546143,
+          "p": 0.5477544881691441,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 2,
+          "excess": 6.853425979614258,
+          "median": 2.8939731121063232,
+          "p": 0.03636324927106851,
+          "frac": 0.3,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k4": {
+          "exposures": 4,
+          "excess": 4.1586761474609375,
+          "median": 4.504897117614746,
+          "p": 0.053690735877650435,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k8": {
+          "exposures": 8,
+          "excess": 4.901908874511719,
+          "median": 5.231818199157715,
+          "p": 0.00019599889849404798,
+          "frac": 0.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 16,
+          "excess": 10.838228225708008,
+          "median": 11.247950553894043,
+          "p": 0.0003002638935619603,
+          "frac": 0.5,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 32,
+          "excess": 23.073305130004883,
+          "median": 20.898794174194336,
+          "p": 7.17126171760512e-05,
+          "frac": 0.9,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 1,
+          "excess": -0.24549460411071777,
+          "median": -1.1416051387786865,
+          "p": 0.87635811579943,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 2,
+          "excess": -1.6000972986221313,
+          "median": -1.2752659320831299,
+          "p": 0.10898028223925951,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 4,
+          "excess": 0.39054131507873535,
+          "median": -0.6393063068389893,
+          "p": 0.7200803397054261,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 8,
+          "excess": 2.3022515773773193,
+          "median": -0.3566715717315674,
+          "p": 0.40568068847328553,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 16,
+          "excess": 0.24004697799682617,
+          "median": 1.3747117519378662,
+          "p": 0.849011388402776,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 32,
+          "excess": 5.261423110961914,
+          "median": 0.8374812602996826,
+          "p": 0.16647962619088658,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 1,
+          "excess": -1.2050464153289795,
+          "median": -3.5221378803253174,
+          "p": 0.6509978129929737,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 2,
+          "excess": -2.540072441101074,
+          "median": -3.2648212909698486,
+          "p": 0.04008899234978556,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 4,
+          "excess": 0.1275782585144043,
+          "median": -0.5997822284698486,
+          "p": 0.9452357054790913,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 8,
+          "excess": 3.5732715129852295,
+          "median": 1.3371570110321045,
+          "p": 0.1369944236968963,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 16,
+          "excess": -1.7625423669815063,
+          "median": -2.693192720413208,
+          "p": 0.032554165898963774,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 32,
+          "excess": 3.5809590816497803,
+          "median": -0.9714062213897705,
+          "p": 0.29798486326542256,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "2": {
+      "clean_mean": 3.372170925140381,
+      "clean_sd": 6.744543552398682,
+      "clean_p95": 15.327818870544434,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 8
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 2,
+          "excess": 2.44264554977417,
+          "median": -1.0179390907287598,
+          "p": 0.34001967553029244,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 4,
+          "excess": 9.431671142578125,
+          "median": 4.179968357086182,
+          "p": 0.015598289496928265,
+          "frac": 0.4,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k4": {
+          "exposures": 8,
+          "excess": 8.626596450805664,
+          "median": 8.333486557006836,
+          "p": 0.0012378345338756357,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 16,
+          "excess": 10.627140045166016,
+          "median": 11.115636825561523,
+          "p": 7.62743737678438e-06,
+          "frac": 0.5,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 32,
+          "excess": 22.630535125732422,
+          "median": 21.495624542236328,
+          "p": 7.023835587509331e-05,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 64,
+          "excess": 79.30006408691406,
+          "median": 70.1820297241211,
+          "p": 6.054125141470408e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 2,
+          "excess": -0.1313624382019043,
+          "median": -2.3581595420837402,
+          "p": 0.9515792994876344,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 4,
+          "excess": -1.520366907119751,
+          "median": -1.6046786308288574,
+          "p": 0.11880470775154856,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 8,
+          "excess": 0.6971001625061035,
+          "median": -1.320115566253662,
+          "p": 0.6360893995406081,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 16,
+          "excess": 1.7546768188476562,
+          "median": -0.6269431114196777,
+          "p": 0.468827361339889,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 32,
+          "excess": -0.20022916793823242,
+          "median": 0.6412014961242676,
+          "p": 0.867023920964657,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 64,
+          "excess": 5.084848880767822,
+          "median": -0.18851995468139648,
+          "p": 0.22768854133666028,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 2,
+          "excess": -0.6237351894378662,
+          "median": -3.0458579063415527,
+          "p": 0.8185375943686749,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 4,
+          "excess": -2.0306358337402344,
+          "median": -2.6073737144470215,
+          "p": 0.08173092531386265,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 8,
+          "excess": -0.5280449390411377,
+          "median": -1.3373618125915527,
+          "p": 0.7464071382880693,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 16,
+          "excess": 3.3589248657226562,
+          "median": 1.9495530128479004,
+          "p": 0.1614462855780529,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 32,
+          "excess": -1.8155829906463623,
+          "median": -2.331693172454834,
+          "p": 0.08387927384828343,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 64,
+          "excess": 5.76930570602417,
+          "median": 0.964724063873291,
+          "p": 0.11240367662448882,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "3": {
+      "clean_mean": 3.434896230697632,
+      "clean_sd": 6.788555145263672,
+      "clean_p95": 15.177175521850586,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 12
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 3,
+          "excess": 3.1143758296966553,
+          "median": 0.2835257053375244,
+          "p": 0.21249663934298083,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 6,
+          "excess": 11.340173721313477,
+          "median": 6.572549819946289,
+          "p": 0.010604363406598417,
+          "frac": 0.4,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k4": {
+          "exposures": 12,
+          "excess": 12.682905197143555,
+          "median": 11.129671096801758,
+          "p": 0.00010335360229985054,
+          "frac": 0.4,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 24,
+          "excess": 17.518125534057617,
+          "median": 17.65403938293457,
+          "p": 1.5184487235253844e-05,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 48,
+          "excess": 47.384891510009766,
+          "median": 30.538026809692383,
+          "p": 0.002491116770712062,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 96,
+          "excess": 144.90533447265625,
+          "median": 140.9981231689453,
+          "p": 2.3753025894665363e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 3,
+          "excess": 0.10155940055847168,
+          "median": -1.7436997890472412,
+          "p": 0.9662307077016425,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 6,
+          "excess": -0.9464876651763916,
+          "median": -1.7712838649749756,
+          "p": 0.38115254675255583,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 12,
+          "excess": 0.6339919567108154,
+          "median": -1.20920729637146,
+          "p": 0.774408798651771,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 24,
+          "excess": 1.6436150074005127,
+          "median": 0.2638876438140869,
+          "p": 0.5245805023273995,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 48,
+          "excess": 0.46729421615600586,
+          "median": 1.367865800857544,
+          "p": 0.742191918855661,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 96,
+          "excess": 5.9985504150390625,
+          "median": 1.2400553226470947,
+          "p": 0.20048367785586718,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 3,
+          "excess": -1.3195574283599854,
+          "median": -3.3636834621429443,
+          "p": 0.6757069744662099,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 6,
+          "excess": -2.402712345123291,
+          "median": -3.670339345932007,
+          "p": 0.08686526092478007,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 12,
+          "excess": -0.14856576919555664,
+          "median": -1.355436086654663,
+          "p": 0.9201443358670307,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 24,
+          "excess": 3.974128007888794,
+          "median": 1.062044382095337,
+          "p": 0.16779524764978446,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 48,
+          "excess": -2.1652488708496094,
+          "median": -2.0859391689300537,
+          "p": 0.0706284838668598,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 96,
+          "excess": 9.363383293151855,
+          "median": 0.9898550510406494,
+          "p": 0.1183579519859902,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "4": {
+      "clean_mean": 3.6068036556243896,
+      "clean_sd": 7.436919212341309,
+      "clean_p95": 16.553401947021484,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 16
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 4,
+          "excess": 4.098104476928711,
+          "median": 1.0576670169830322,
+          "p": 0.1478646418706093,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 8,
+          "excess": 12.95638656616211,
+          "median": 8.31451416015625,
+          "p": 0.005968384151690589,
+          "frac": 0.4,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k4": {
+          "exposures": 16,
+          "excess": 15.939054489135742,
+          "median": 15.170700073242188,
+          "p": 2.2132758087380892e-05,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 32,
+          "excess": 25.49909782409668,
+          "median": 23.43584442138672,
+          "p": 0.00017444350203286811,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 64,
+          "excess": 71.4927978515625,
+          "median": 53.45215606689453,
+          "p": 0.0011422173030657696,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 128,
+          "excess": 150.3629913330078,
+          "median": 147.60745239257812,
+          "p": 1.6128273000215453e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 4,
+          "excess": 0.20623278617858887,
+          "median": -2.3699209690093994,
+          "p": 0.9371104439733495,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 8,
+          "excess": -1.2006447315216064,
+          "median": -2.1081159114837646,
+          "p": 0.34087050453559076,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 16,
+          "excess": -0.6738362312316895,
+          "median": -1.1963651180267334,
+          "p": 0.6411337963038966,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 32,
+          "excess": 1.9575974941253662,
+          "median": 0.45739006996154785,
+          "p": 0.4675127129521377,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 64,
+          "excess": 1.3561832904815674,
+          "median": 1.20906662940979,
+          "p": 0.393846993533294,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 128,
+          "excess": 5.893291473388672,
+          "median": 0.3735811710357666,
+          "p": 0.2046276341192507,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 4,
+          "excess": -1.1122324466705322,
+          "median": -3.1444318294525146,
+          "p": 0.7393070425663598,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 8,
+          "excess": -2.8560829162597656,
+          "median": -3.9542996883392334,
+          "p": 0.05436114516413376,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 16,
+          "excess": -1.2748544216156006,
+          "median": -0.9051854610443115,
+          "p": 0.16621175243103598,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 32,
+          "excess": 4.475351333618164,
+          "median": 1.7177202701568604,
+          "p": 0.12422939297316377,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 64,
+          "excess": -1.2565319538116455,
+          "median": -1.5766828060150146,
+          "p": 0.3330424619352135,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 128,
+          "excess": 13.58004379272461,
+          "median": 1.4463884830474854,
+          "p": 0.1291924867430915,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "5": {
+      "clean_mean": 3.5889666080474854,
+      "clean_sd": 7.295502662658691,
+      "clean_p95": 15.523584365844727,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 20
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 5,
+          "excess": 4.927377700805664,
+          "median": 2.0453450679779053,
+          "p": 0.08932606401029414,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 10,
+          "excess": 14.82089614868164,
+          "median": 10.338066101074219,
+          "p": 0.004038205293493058,
+          "frac": 0.5,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k4": {
+          "exposures": 20,
+          "excess": 19.382305145263672,
+          "median": 19.46127700805664,
+          "p": 8.887423477957113e-06,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 40,
+          "excess": 36.57150650024414,
+          "median": 30.958538055419922,
+          "p": 0.0006535690017615935,
+          "frac": 0.9,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 80,
+          "excess": 91.41280364990234,
+          "median": 82.92955780029297,
+          "p": 0.000241197805417363,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 160,
+          "excess": 151.61204528808594,
+          "median": 149.4164276123047,
+          "p": 1.3238804843034426e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 5,
+          "excess": 0.22809123992919922,
+          "median": -2.1149675846099854,
+          "p": 0.9317107112337033,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 10,
+          "excess": -0.7999930381774902,
+          "median": -0.9749720096588135,
+          "p": 0.4517330926924119,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 20,
+          "excess": -0.8297097682952881,
+          "median": -2.0509798526763916,
+          "p": 0.5431670391142107,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 40,
+          "excess": 2.552096128463745,
+          "median": 1.0082013607025146,
+          "p": 0.368469662951162,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 80,
+          "excess": 0.4884006977081299,
+          "median": 0.5082662105560303,
+          "p": 0.7127364928642154,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 160,
+          "excess": 5.882824897766113,
+          "median": -0.5279676914215088,
+          "p": 0.23108058505727813,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 5,
+          "excess": -0.6856772899627686,
+          "median": -3.0780889987945557,
+          "p": 0.8419494943013016,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 10,
+          "excess": -2.7058467864990234,
+          "median": -3.8544771671295166,
+          "p": 0.062411341471811266,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 20,
+          "excess": -0.04373335838317871,
+          "median": -0.25838494300842285,
+          "p": 0.9734172932633629,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 40,
+          "excess": 4.64377498626709,
+          "median": 1.9873425960540771,
+          "p": 0.13572265762616587,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 80,
+          "excess": -1.2419424057006836,
+          "median": -1.172638177871704,
+          "p": 0.313022552861778,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 160,
+          "excess": 17.550743103027344,
+          "median": 2.3754842281341553,
+          "p": 0.15638915671355827,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "6": {
+      "clean_mean": 3.3800723552703857,
+      "clean_sd": 6.831722259521484,
+      "clean_p95": 15.279900550842285,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 12
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 6,
+          "excess": 5.4052886962890625,
+          "median": 3.233983278274536,
+          "p": 0.0356733467380695,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 12,
+          "excess": 16.58761978149414,
+          "median": 12.516255378723145,
+          "p": 0.0019773536785056387,
+          "frac": 0.5,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k4": {
+          "exposures": 24,
+          "excess": 24.336164474487305,
+          "median": 24.87388038635254,
+          "p": 1.741765242315193e-05,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 48,
+          "excess": 46.55527114868164,
+          "median": 42.24381637573242,
+          "p": 0.0007384723818202746,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 96,
+          "excess": 103.37120819091797,
+          "median": 105.67577362060547,
+          "p": 6.558193134961942e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 192,
+          "excess": 152.06358337402344,
+          "median": 149.90994262695312,
+          "p": 1.2703990097717432e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 6,
+          "excess": 0.746192216873169,
+          "median": -1.6027133464813232,
+          "p": 0.7749219836347507,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 12,
+          "excess": -0.3923227787017822,
+          "median": -0.08219027519226074,
+          "p": 0.7454859750276295,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 24,
+          "excess": -0.9732348918914795,
+          "median": -1.7214572429656982,
+          "p": 0.5674874361588024,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 48,
+          "excess": 2.375519037246704,
+          "median": 0.04739212989807129,
+          "p": 0.37947286423480775,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 96,
+          "excess": 1.2668039798736572,
+          "median": 1.379314661026001,
+          "p": 0.35693559532077146,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 192,
+          "excess": 6.414165496826172,
+          "median": -0.9592463970184326,
+          "p": 0.21236400989746113,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 6,
+          "excess": -0.987220048904419,
+          "median": -2.7205073833465576,
+          "p": 0.7278714394004134,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 12,
+          "excess": -2.7808337211608887,
+          "median": -3.2179172039031982,
+          "p": 0.06165202945009928,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 24,
+          "excess": 0.6372172832489014,
+          "median": 0.4035656452178955,
+          "p": 0.6793091171532709,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 48,
+          "excess": 4.575963973999023,
+          "median": 2.8906185626983643,
+          "p": 0.12663353044231687,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 96,
+          "excess": -0.5150673389434814,
+          "median": -1.2163054943084717,
+          "p": 0.7127298894112786,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 192,
+          "excess": 20.619245529174805,
+          "median": 2.9932682514190674,
+          "p": 0.16495381276346302,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "7": {
+      "clean_mean": 2.9288439750671387,
+      "clean_sd": 7.192388534545898,
+      "clean_p95": 16.458145141601562,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 14
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 7,
+          "excess": 7.12975549697876,
+          "median": 4.174023151397705,
+          "p": 0.03507991160865275,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 14,
+          "excess": 18.74616813659668,
+          "median": 15.02569580078125,
+          "p": 0.0010734143794169312,
+          "frac": 0.5,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k4": {
+          "exposures": 28,
+          "excess": 30.342056274414062,
+          "median": 30.722858428955078,
+          "p": 1.5032682933305301e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 56,
+          "excess": 56.76414108276367,
+          "median": 52.85577392578125,
+          "p": 0.0006191041148964662,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 112,
+          "excess": 107.87841033935547,
+          "median": 112.82572174072266,
+          "p": 3.841099860978694e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 224,
+          "excess": 152.6012725830078,
+          "median": 150.57887268066406,
+          "p": 1.234153327657191e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 7,
+          "excess": 0.8832581043243408,
+          "median": -1.7352862358093262,
+          "p": 0.7257814936347423,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 14,
+          "excess": -0.15541291236877441,
+          "median": 0.007713794708251953,
+          "p": 0.9044339378887154,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 28,
+          "excess": -0.37456274032592773,
+          "median": -0.9358935356140137,
+          "p": 0.8671484045793657,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 56,
+          "excess": 2.8261399269104004,
+          "median": 1.473818302154541,
+          "p": 0.216672193146609,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 112,
+          "excess": 1.6365766525268555,
+          "median": 3.155839443206787,
+          "p": 0.2536937949170514,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 224,
+          "excess": 6.272039890289307,
+          "median": -0.33556318283081055,
+          "p": 0.23043140836362597,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 7,
+          "excess": -0.28885340690612793,
+          "median": -1.8729643821716309,
+          "p": 0.9271378327914352,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 14,
+          "excess": -2.2910799980163574,
+          "median": -3.8349032402038574,
+          "p": 0.16964180907045068,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 28,
+          "excess": 0.6751415729522705,
+          "median": 0.5846409797668457,
+          "p": 0.6184388776994636,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 56,
+          "excess": 4.270603656768799,
+          "median": 3.809422016143799,
+          "p": 0.1807357442873571,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 112,
+          "excess": -1.226184368133545,
+          "median": -1.1753153800964355,
+          "p": 0.46367759832666866,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 224,
+          "excess": 20.123334884643555,
+          "median": 2.6276516914367676,
+          "p": 0.17969518375213464,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "8": {
+      "clean_mean": 2.949812650680542,
+      "clean_sd": 7.263876914978027,
+      "clean_p95": 15.338868141174316,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 16
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 8,
+          "excess": 8.204399108886719,
+          "median": 5.359209060668945,
+          "p": 0.022546395378199694,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 16,
+          "excess": 21.7131290435791,
+          "median": 18.62595558166504,
+          "p": 0.0008175334585866541,
+          "frac": 0.7,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k4": {
+          "exposures": 32,
+          "excess": 35.83507537841797,
+          "median": 34.751670837402344,
+          "p": 1.3570190043059811e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 64,
+          "excess": 66.26373291015625,
+          "median": 62.96409606933594,
+          "p": 0.0005353388200595274,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 128,
+          "excess": 108.94972229003906,
+          "median": 116.10110473632812,
+          "p": 3.669433426361326e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 256,
+          "excess": 152.6291961669922,
+          "median": 150.65603637695312,
+          "p": 1.2380811342821624e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 8,
+          "excess": 0.46343111991882324,
+          "median": -2.469141721725464,
+          "p": 0.8537309766874839,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 16,
+          "excess": -0.40027832984924316,
+          "median": -0.5846812725067139,
+          "p": 0.752756036731989,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 32,
+          "excess": -1.315906047821045,
+          "median": -1.8401820659637451,
+          "p": 0.5806200927183501,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 64,
+          "excess": 3.1073782444000244,
+          "median": 1.2142002582550049,
+          "p": 0.2356350397522889,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 128,
+          "excess": 1.6532933712005615,
+          "median": 1.561769723892212,
+          "p": 0.2586464181518388,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 256,
+          "excess": 5.2859344482421875,
+          "median": -1.303734540939331,
+          "p": 0.26010669130545017,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 8,
+          "excess": -0.2563595771789551,
+          "median": -2.242985486984253,
+          "p": 0.9331840758750494,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 16,
+          "excess": -2.414379119873047,
+          "median": -4.214480400085449,
+          "p": 0.18873556568519917,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 32,
+          "excess": -0.06325936317443848,
+          "median": -0.6140964031219482,
+          "p": 0.9571909917106904,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 64,
+          "excess": 4.349720001220703,
+          "median": 5.217698097229004,
+          "p": 0.16619557056486758,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 128,
+          "excess": -0.402421236038208,
+          "median": -1.0831477642059326,
+          "p": 0.8268103107750309,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 256,
+          "excess": 21.326017379760742,
+          "median": 4.406155586242676,
+          "p": 0.1335593621163682,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "9": {
+      "clean_mean": 2.698244571685791,
+      "clean_sd": 7.621005058288574,
+      "clean_p95": 15.675932884216309,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 18
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 9,
+          "excess": 9.97947883605957,
+          "median": 7.4284186363220215,
+          "p": 0.007721895838749674,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 18,
+          "excess": 24.260629653930664,
+          "median": 21.526700973510742,
+          "p": 0.0005801314555054935,
+          "frac": 0.7,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k4": {
+          "exposures": 36,
+          "excess": 44.174896240234375,
+          "median": 41.28470230102539,
+          "p": 3.1359293973472785e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 72,
+          "excess": 74.12557983398438,
+          "median": 72.73770141601562,
+          "p": 0.00038504940921557965,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 144,
+          "excess": 110.02840423583984,
+          "median": 116.96493530273438,
+          "p": 3.072432798899336e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 288,
+          "excess": 152.94650268554688,
+          "median": 150.94638061523438,
+          "p": 1.2044426623430014e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 9,
+          "excess": 1.3800759315490723,
+          "median": -0.9601845741271973,
+          "p": 0.5972153606794698,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 18,
+          "excess": -0.4659585952758789,
+          "median": -0.6571907997131348,
+          "p": 0.7274625380113973,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 36,
+          "excess": -2.7673325538635254,
+          "median": -2.713453769683838,
+          "p": 0.20997311259435728,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 72,
+          "excess": 3.7940163612365723,
+          "median": 2.4262232780456543,
+          "p": 0.22935510502548184,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 144,
+          "excess": 0.9610457420349121,
+          "median": 0.7104182243347168,
+          "p": 0.5323013745957983,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 288,
+          "excess": 4.338481903076172,
+          "median": -1.2368245124816895,
+          "p": 0.37205641675892487,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 9,
+          "excess": 0.03544735908508301,
+          "median": -1.9200043678283691,
+          "p": 0.9915061775742254,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 18,
+          "excess": -1.633300542831421,
+          "median": -3.8356690406799316,
+          "p": 0.3469356681742397,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 36,
+          "excess": -0.37625980377197266,
+          "median": -0.747408390045166,
+          "p": 0.7799808619216191,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 72,
+          "excess": 5.102083683013916,
+          "median": 5.3283820152282715,
+          "p": 0.14000480010587085,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 144,
+          "excess": -0.7033390998840332,
+          "median": -0.8255295753479004,
+          "p": 0.6774607202064399,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 288,
+          "excess": 22.110239028930664,
+          "median": 5.552205562591553,
+          "p": 0.13785525236908766,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    },
+    "10": {
+      "clean_mean": 2.3757200241088867,
+      "clean_sd": 6.888299465179443,
+      "clean_p95": 15.721968650817871,
+      "bonferroni_alpha": 0.002777777777777778,
+      "first_readable_exposures_bonf": {
+        "verbatim": 20
+      },
+      "cells": {
+        "verbatim/k1": {
+          "exposures": 10,
+          "excess": 11.29663372039795,
+          "median": 7.831645965576172,
+          "p": 0.007432993762163705,
+          "frac": 0.2,
+          "readable": true,
+          "readable_bonf": false
+        },
+        "verbatim/k2": {
+          "exposures": 20,
+          "excess": 27.118431091308594,
+          "median": 23.179107666015625,
+          "p": 0.0004397188163439444,
+          "frac": 0.8,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k4": {
+          "exposures": 40,
+          "excess": 53.475311279296875,
+          "median": 52.55237579345703,
+          "p": 5.898945164941963e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k8": {
+          "exposures": 80,
+          "excess": 79.88815307617188,
+          "median": 75.89454650878906,
+          "p": 0.0003654864772427219,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k16": {
+          "exposures": 160,
+          "excess": 110.74449920654297,
+          "median": 117.67697143554688,
+          "p": 2.7692302745733646e-05,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "verbatim/k32": {
+          "exposures": 320,
+          "excess": 153.26844787597656,
+          "median": 151.28749084472656,
+          "p": 1.1918437499375714e-06,
+          "frac": 1.0,
+          "readable": true,
+          "readable_bonf": true
+        },
+        "variant/k1": {
+          "exposures": 10,
+          "excess": -0.13761067390441895,
+          "median": -3.0965471267700195,
+          "p": 0.9589558881030489,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k2": {
+          "exposures": 20,
+          "excess": -0.059119224548339844,
+          "median": -2.0812597274780273,
+          "p": 0.9669687731316678,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k4": {
+          "exposures": 40,
+          "excess": -1.771423101425171,
+          "median": -1.6513700485229492,
+          "p": 0.5058773262314544,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k8": {
+          "exposures": 80,
+          "excess": 3.320249557495117,
+          "median": 1.4884462356567383,
+          "p": 0.34046034246725587,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k16": {
+          "exposures": 160,
+          "excess": 0.726778507232666,
+          "median": -0.042611122131347656,
+          "p": 0.5833939085026063,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "variant/k32": {
+          "exposures": 320,
+          "excess": 4.561887741088867,
+          "median": -1.8934526443481445,
+          "p": 0.34389328169362665,
+          "frac": 0.2,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k1": {
+          "exposures": 10,
+          "excess": 0.2112736701965332,
+          "median": -1.4161710739135742,
+          "p": 0.9516607910980301,
+          "frac": 0.1,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k2": {
+          "exposures": 20,
+          "excess": -2.114574432373047,
+          "median": -4.5291242599487305,
+          "p": 0.24582904735235536,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k4": {
+          "exposures": 40,
+          "excess": 0.9903693199157715,
+          "median": 1.2571229934692383,
+          "p": 0.4656524502259771,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k8": {
+          "exposures": 80,
+          "excess": 4.306765079498291,
+          "median": 3.49196720123291,
+          "p": 0.2021493114544534,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k16": {
+          "exposures": 160,
+          "excess": -0.6148790121078491,
+          "median": -1.4173688888549805,
+          "p": 0.7688096750827798,
+          "frac": 0.0,
+          "readable": false,
+          "readable_bonf": false
+        },
+        "mixup/k32": {
+          "exposures": 320,
+          "excess": 22.854488372802734,
+          "median": 5.7922868728637695,
+          "p": 0.10959881683957504,
+          "frac": 0.3,
+          "readable": false,
+          "readable_bonf": false
+        }
+      }
+    }
+  }
+}

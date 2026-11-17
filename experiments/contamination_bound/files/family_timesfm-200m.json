@@ -1,0 +1,183 @@
+{
+  "clean_mean": -0.08833261579275131,
+  "clean_sd": 0.21823829412460327,
+  "clean_p95": 0.23960725963115692,
+  "bonferroni_alpha": 0.002777777777777778,
+  "first_readable_exposures_bonf": {
+    "verbatim": 40,
+    "variant": 40,
+    "mixup": 320
+  },
+  "cells": {
+    "verbatim/k1": {
+      "exposures": 10,
+      "excess": 0.7387515306472778,
+      "median": 0.27140840888023376,
+      "p": 0.04620229267207865,
+      "frac": 0.4,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k2": {
+      "exposures": 20,
+      "excess": 0.5471391677856445,
+      "median": 0.47834184765815735,
+      "p": 0.014701875041555627,
+      "frac": 0.6,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k4": {
+      "exposures": 40,
+      "excess": 1.5577071905136108,
+      "median": 1.3763787746429443,
+      "p": 0.0019207682138113848,
+      "frac": 0.9,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k8": {
+      "exposures": 80,
+      "excess": 1.1330864429473877,
+      "median": 0.5737070441246033,
+      "p": 0.048086963224299305,
+      "frac": 0.8,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k16": {
+      "exposures": 160,
+      "excess": 1.2953133583068848,
+      "median": 0.7859446406364441,
+      "p": 0.009912045182864435,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k32": {
+      "exposures": 320,
+      "excess": 1.563654899597168,
+      "median": 1.2108912467956543,
+      "p": 0.0036356020982014764,
+      "frac": 0.9,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "variant/k1": {
+      "exposures": 10,
+      "excess": 0.8896852731704712,
+      "median": 0.21939340233802795,
+      "p": 0.06064847058350673,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k2": {
+      "exposures": 20,
+      "excess": 0.4571390151977539,
+      "median": 0.242840975522995,
+      "p": 0.02814203426517232,
+      "frac": 0.3,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "variant/k4": {
+      "exposures": 40,
+      "excess": 1.4032909870147705,
+      "median": 1.2426795959472656,
+      "p": 0.0024670845602013424,
+      "frac": 0.8,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "variant/k8": {
+      "exposures": 80,
+      "excess": 0.730040967464447,
+      "median": 0.5682609677314758,
+      "p": 0.0035432773584423596,
+      "frac": 0.8,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "variant/k16": {
+      "exposures": 160,
+      "excess": 0.7933656573295593,
+      "median": 0.4711761772632599,
+      "p": 0.006040985060812058,
+      "frac": 0.8,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "variant/k32": {
+      "exposures": 320,
+      "excess": 1.0347555875778198,
+      "median": 0.5619677305221558,
+      "p": 0.01052227858337968,
+      "frac": 0.6,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "mixup/k1": {
+      "exposures": 10,
+      "excess": 0.09188836812973022,
+      "median": 0.07935117930173874,
+      "p": 0.11306871261838944,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k2": {
+      "exposures": 20,
+      "excess": 0.7686930298805237,
+      "median": 0.37510401010513306,
+      "p": 0.04341335283581309,
+      "frac": 0.5,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "mixup/k4": {
+      "exposures": 40,
+      "excess": 0.8728123307228088,
+      "median": 0.7255842089653015,
+      "p": 0.007533487702285046,
+      "frac": 0.7,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "mixup/k8": {
+      "exposures": 80,
+      "excess": 5.856352806091309,
+      "median": 0.8436986804008484,
+      "p": 0.27628813120103374,
+      "frac": 0.7,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k16": {
+      "exposures": 160,
+      "excess": 1.5942156314849854,
+      "median": 0.9085254669189453,
+      "p": 0.027573664893539927,
+      "frac": 0.6,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "mixup/k32": {
+      "exposures": 320,
+      "excess": 2.33288836479187,
+      "median": 1.7717258930206299,
+      "p": 0.0012333197517616534,
+      "frac": 0.9,
+      "readable": true,
+      "readable_bonf": true
+    }
+  },
+  "family": "timesfm",
+  "size": "200m",
+  "loss": "squared error + pinball loss over 9 deciles, context-standardised",
+  "epochs": 10,
+  "lr": 3e-05,
+  "batch": 16,
+  "n_params": 203568960,
+  "seconds": 660
+}

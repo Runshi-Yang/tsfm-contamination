@@ -1,0 +1,4 @@
+# Lag-Llama. Install on top of base.txt; install lag-llama itself with --no-deps.
+lag-llama @ git+https://github.com/time-series-foundation-models/lag-llama.git
+gluonts[torch]==0.14.4
+lightning==2.1.4

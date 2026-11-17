@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+ghcn_cache/
+out/
+outputs/contaminated_ep10/
+outputs/family/*/*.pt

@@ -1,0 +1,13 @@
+{
+  "n_direct": 300,
+  "counts": {
+    "confirmed": 299,
+    "short_cover": 0,
+    "missing_vals": 1,
+    "mismatch": 0,
+    "no_station": 0
+  },
+  "match_rate": 0.9966666666666667,
+  "unit_relation": "released == round(ours / 2.54)",
+  "release_last_date": 20141231
+}

@@ -1,0 +1,8 @@
+{
+  "draws_per_augmentation": 4.608,
+  "unmixed_ushcn_augmentations": 119047.61904761904,
+  "day_exposures_unmixed": 1.2203060463944704,
+  "day_exposures_in_blends": 6.101530231972352,
+  "exact_window_exposures": 0.0018139158854465613,
+  "one_in": 551.2934794955024
+}

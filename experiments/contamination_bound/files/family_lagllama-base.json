@@ -1,0 +1,182 @@
+{
+  "clean_mean": 1.3528293371200562,
+  "clean_sd": 0.8914698958396912,
+  "clean_p95": 2.64560055732727,
+  "bonferroni_alpha": 0.002777777777777778,
+  "first_readable_exposures_bonf": {
+    "verbatim": 80,
+    "mixup": 10
+  },
+  "cells": {
+    "verbatim/k1": {
+      "exposures": 10,
+      "excess": 0.6005678176879883,
+      "median": 0.7038978338241577,
+      "p": 0.033295810661266356,
+      "frac": 0.2,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k2": {
+      "exposures": 20,
+      "excess": -0.44667279720306396,
+      "median": -0.481351375579834,
+      "p": 0.16836939885397298,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k4": {
+      "exposures": 40,
+      "excess": 0.18927443027496338,
+      "median": 0.39946162700653076,
+      "p": 0.4258411859244311,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k8": {
+      "exposures": 80,
+      "excess": 1.0002046823501587,
+      "median": 0.9754968881607056,
+      "p": 3.6498647974361215e-05,
+      "frac": 0.3,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k16": {
+      "exposures": 160,
+      "excess": 0.7120305299758911,
+      "median": 0.7615457773208618,
+      "p": 0.0239313386277582,
+      "frac": 0.3,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k32": {
+      "exposures": 320,
+      "excess": 1.0006262063980103,
+      "median": 1.3130160570144653,
+      "p": 0.01790450703711205,
+      "frac": 0.5,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "variant/k1": {
+      "exposures": 10,
+      "excess": -0.03406202793121338,
+      "median": 0.0799635648727417,
+      "p": 0.9088517186167355,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k2": {
+      "exposures": 20,
+      "excess": 0.12079489231109619,
+      "median": 0.20048940181732178,
+      "p": 0.6898937949625059,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k4": {
+      "exposures": 40,
+      "excess": -0.33309757709503174,
+      "median": -0.4902456998825073,
+      "p": 0.36953543678491974,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k8": {
+      "exposures": 80,
+      "excess": 0.0976334810256958,
+      "median": 0.6443564891815186,
+      "p": 0.7653364142868655,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k16": {
+      "exposures": 160,
+      "excess": 0.41482603549957275,
+      "median": 0.5886775255203247,
+      "p": 0.2434433467724045,
+      "frac": 0.2,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k32": {
+      "exposures": 320,
+      "excess": 0.3446918725967407,
+      "median": 0.3674275875091553,
+      "p": 0.4113651940051354,
+      "frac": 0.2,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k1": {
+      "exposures": 10,
+      "excess": 0.6545315980911255,
+      "median": 0.6202340126037598,
+      "p": 0.0020351253176564923,
+      "frac": 0.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "mixup/k2": {
+      "exposures": 20,
+      "excess": 0.028578996658325195,
+      "median": 0.217240571975708,
+      "p": 0.9225128564279876,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k4": {
+      "exposures": 40,
+      "excess": -0.21043002605438232,
+      "median": -0.09518778324127197,
+      "p": 0.5108849972067899,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k8": {
+      "exposures": 80,
+      "excess": 0.26435649394989014,
+      "median": 0.31948554515838623,
+      "p": 0.30231100639753433,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k16": {
+      "exposures": 160,
+      "excess": 0.16203641891479492,
+      "median": 0.1522839069366455,
+      "p": 0.5131553225101393,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k32": {
+      "exposures": 320,
+      "excess": -0.26146388053894043,
+      "median": -0.18125522136688232,
+      "p": 0.3918613273155328,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    }
+  },
+  "family": "lagllama",
+  "size": "base",
+  "loss": "Student-t negative log-likelihood of the horizon",
+  "epochs": 10,
+  "lr": 0.0001,
+  "batch": 16,
+  "n_params": 2449299,
+  "seconds": 50
+}

@@ -1,0 +1,15 @@
+{
+  "rule": "largest of (0.0001, 3e-05, 1e-05) with <= 1% rise in held-out background loss after 2 epochs",
+  "chosen": 0.0001,
+  "trials": {
+    "0.0001": {
+      "start": 124.87980651855469,
+      "curve": [
+        120.03978729248047,
+        119.93505859375
+      ],
+      "rel_change": -0.03959605690188184,
+      "ok": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Chronos, every analysis step, tables and figures. Python 3.10.
+torch==2.11.0
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+pyarrow==25.0.0
+huggingface_hub==1.26.0
+matplotlib==3.10.9
+chronos-forecasting==2.3.1
+transformers==5.14.1

@@ -1,0 +1,179 @@
+{
+  "clean_mean": 0.5647690892219543,
+  "clean_sd": 0.9476486444473267,
+  "clean_p95": 2.3681867122650146,
+  "bonferroni_alpha": 0.002777777777777778,
+  "first_readable_exposures_bonf": {},
+  "cells": {
+    "verbatim/k1": {
+      "exposures": 10,
+      "excess": 0.23944032192230225,
+      "median": -0.05777996778488159,
+      "p": 0.43684996464190806,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k2": {
+      "exposures": 20,
+      "excess": 0.45264631509780884,
+      "median": 0.2567710280418396,
+      "p": 0.1629550858918006,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k4": {
+      "exposures": 40,
+      "excess": 0.11386191844940186,
+      "median": -0.045234858989715576,
+      "p": 0.6630763026657787,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k8": {
+      "exposures": 80,
+      "excess": 0.12235724925994873,
+      "median": -0.05348712205886841,
+      "p": 0.65111592855564,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k16": {
+      "exposures": 160,
+      "excess": -0.014310598373413086,
+      "median": -0.21058320999145508,
+      "p": 0.9475899550322494,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k32": {
+      "exposures": 320,
+      "excess": 0.1587645411491394,
+      "median": -0.033413827419281006,
+      "p": 0.5344193924436227,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k1": {
+      "exposures": 10,
+      "excess": -0.5103284120559692,
+      "median": -0.47393736243247986,
+      "p": 0.3861719461575922,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k2": {
+      "exposures": 20,
+      "excess": 0.36314618587493896,
+      "median": 0.13776618242263794,
+      "p": 0.2648705678267229,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k4": {
+      "exposures": 40,
+      "excess": -0.2599309980869293,
+      "median": -0.42669934034347534,
+      "p": 0.1545017668778911,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k8": {
+      "exposures": 80,
+      "excess": -0.07741394639015198,
+      "median": -0.36866307258605957,
+      "p": 0.7912029566499966,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k16": {
+      "exposures": 160,
+      "excess": -0.27776652574539185,
+      "median": -0.41812461614608765,
+      "p": 0.2839696167500919,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k32": {
+      "exposures": 320,
+      "excess": 0.06260538101196289,
+      "median": 0.012667953968048096,
+      "p": 0.8277886216616374,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k1": {
+      "exposures": 10,
+      "excess": -0.4537009000778198,
+      "median": -0.48374485969543457,
+      "p": 0.04336662326002025,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k2": {
+      "exposures": 20,
+      "excess": -0.24735885858535767,
+      "median": -0.39485424757003784,
+      "p": 0.39233236846900565,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k4": {
+      "exposures": 40,
+      "excess": 0.19679951667785645,
+      "median": -0.4104407727718353,
+      "p": 0.6930952428264576,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k8": {
+      "exposures": 80,
+      "excess": 0.10348308086395264,
+      "median": -0.37509697675704956,
+      "p": 0.8086633608216114,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k16": {
+      "exposures": 160,
+      "excess": -0.1845875382423401,
+      "median": -0.31584733724594116,
+      "p": 0.35673964323008633,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k32": {
+      "exposures": 320,
+      "excess": 0.10875415802001953,
+      "median": -0.07863098382949829,
+      "p": 0.7257626263877247,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    }
+  },
+  "family": "moirai",
+  "size": "small",
+  "loss": "negative log-likelihood (per-sample, uni2ts SampleNLLLoss)",
+  "epochs": 10,
+  "lr": 1e-05,
+  "batch": 16,
+  "n_params": 13827528,
+  "seconds": 507
+}

@@ -1,0 +1,181 @@
+{
+  "clean_mean": 7.204095840454102,
+  "clean_sd": 10.511621475219727,
+  "clean_p95": 21.791994094848633,
+  "bonferroni_alpha": 0.002777777777777778,
+  "first_readable_exposures_bonf": {
+    "verbatim": 40
+  },
+  "cells": {
+    "verbatim/k1": {
+      "exposures": 10,
+      "excess": 2.6503915786743164,
+      "median": -1.4396648406982422,
+      "p": 0.423233150619715,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "verbatim/k2": {
+      "exposures": 20,
+      "excess": 20.50309944152832,
+      "median": 13.603326797485352,
+      "p": 0.039198500051684286,
+      "frac": 0.5,
+      "readable": true,
+      "readable_bonf": false
+    },
+    "verbatim/k4": {
+      "exposures": 40,
+      "excess": 17.659841537475586,
+      "median": 16.121706008911133,
+      "p": 0.00047564458846246105,
+      "frac": 0.6,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k8": {
+      "exposures": 80,
+      "excess": 30.52619743347168,
+      "median": 22.717239379882812,
+      "p": 0.0017349661293662732,
+      "frac": 0.9,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k16": {
+      "exposures": 160,
+      "excess": 78.44448852539062,
+      "median": 64.6843490600586,
+      "p": 0.0005994480104968552,
+      "frac": 0.9,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "verbatim/k32": {
+      "exposures": 320,
+      "excess": 156.06362915039062,
+      "median": 150.29415893554688,
+      "p": 1.793794931555367e-06,
+      "frac": 1.0,
+      "readable": true,
+      "readable_bonf": true
+    },
+    "variant/k1": {
+      "exposures": 10,
+      "excess": 0.3981165885925293,
+      "median": -5.201740264892578,
+      "p": 0.9353239209295339,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k2": {
+      "exposures": 20,
+      "excess": -1.876539707183838,
+      "median": -2.422422409057617,
+      "p": 0.3534315446354672,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k4": {
+      "exposures": 40,
+      "excess": 1.9556331634521484,
+      "median": 1.9458904266357422,
+      "p": 0.4039650930229973,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k8": {
+      "exposures": 80,
+      "excess": 3.794891357421875,
+      "median": 1.2699909210205078,
+      "p": 0.38440271537859294,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k16": {
+      "exposures": 160,
+      "excess": 0.8568668365478516,
+      "median": 0.1812734603881836,
+      "p": 0.7625159324066628,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "variant/k32": {
+      "exposures": 320,
+      "excess": 7.995208740234375,
+      "median": 1.0162715911865234,
+      "p": 0.21945783471963115,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k1": {
+      "exposures": 10,
+      "excess": -3.049543857574463,
+      "median": -6.288110733032227,
+      "p": 0.4151412169994604,
+      "frac": 0.1,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k2": {
+      "exposures": 20,
+      "excess": -4.0464277267456055,
+      "median": -2.281442642211914,
+      "p": 0.03474323353137416,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k4": {
+      "exposures": 40,
+      "excess": -2.0702199935913086,
+      "median": -3.6397647857666016,
+      "p": 0.3425486312904412,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k8": {
+      "exposures": 80,
+      "excess": 4.787607192993164,
+      "median": -2.595457077026367,
+      "p": 0.342227347690076,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k16": {
+      "exposures": 160,
+      "excess": -2.307427406311035,
+      "median": -3.3104305267333984,
+      "p": 0.13186109775262203,
+      "frac": 0.0,
+      "readable": false,
+      "readable_bonf": false
+    },
+    "mixup/k32": {
+      "exposures": 320,
+      "excess": 18.943740844726562,
+      "median": 4.622648239135742,
+      "p": 0.07761189403338026,
+      "frac": 0.3,
+      "readable": false,
+      "readable_bonf": false
+    }
+  },
+  "family": "chronos",
+  "size": "small",
+  "loss": "token cross-entropy (summed nats)",
+  "epochs": 10,
+  "lr": 0.0001,
+  "batch": 16,
+  "n_params": 46154240,
+  "seconds": 508
+}

@@ -1,0 +1,3 @@
+# TimesFM. Install on top of base.txt with --no-deps. Version 1.x is the last that loads the
+# 1.0-200M and 2.0-500M PyTorch checkpoints.
+timesfm==1.3.0

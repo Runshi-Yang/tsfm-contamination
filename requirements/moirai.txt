@@ -1,0 +1,8 @@
+# Moirai. Install on top of base.txt (venv with --system-site-packages);
+# install uni2ts itself with --no-deps, its pins conflict with the base torch.
+uni2ts==2.0.0
+gluonts==0.17.0
+jaxtyping==0.2.38
+einops==0.8.2
+hydra-core==1.3.7
+lightning==2.6.6

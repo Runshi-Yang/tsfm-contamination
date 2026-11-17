@@ -1,0 +1,24 @@
+{
+  "family": "moirai",
+  "size": "large",
+  "loss": "negative log-likelihood (per-sample, uni2ts SampleNLLLoss)",
+  "ref_mean": 0.9707793477425972,
+  "means": {
+    "direct": 1.1107549667358398,
+    "indirect": 0.9707794189453125,
+    "clean": 0.6249562501907349
+  },
+  "raw_diff": 0.13997550297349926,
+  "raw_pct": 14.418879356981732,
+  "raw_ci_pct": [
+    -26.096687789057242,
+    54.436186368706096
+  ],
+  "adj_diff": 0.09830395197764696,
+  "adj_pct": 10.126292056607731,
+  "adj_ci_pct": [
+    -29.140396846334355,
+    49.1898736629431
+  ],
+  "r2_with_difficulty": 0.07225205234299469
+}
